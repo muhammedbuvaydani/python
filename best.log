@@ -1,0 +1,20 @@
+nohup: ignoring input
+2021-03-13 14:11:50.401082: I tensorflow_serving/model_servers/server.cc:88] Building single TensorFlow model file config:  model_name: saved_model model_base_path: /root/AI/BestModel/model.savedmodel/
+2021-03-13 14:11:50.401350: I tensorflow_serving/model_servers/server_core.cc:464] Adding/updating models.
+2021-03-13 14:11:50.401380: I tensorflow_serving/model_servers/server_core.cc:587]  (Re-)adding model: saved_model
+2021-03-13 14:11:50.501889: I tensorflow_serving/core/basic_manager.cc:740] Successfully reserved resources to load servable {name: saved_model version: 1}
+2021-03-13 14:11:50.501927: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: saved_model version: 1}
+2021-03-13 14:11:50.501946: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: saved_model version: 1}
+2021-03-13 14:11:50.501994: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:32] Reading SavedModel from: /root/AI/BestModel/model.savedmodel/1
+2021-03-13 14:11:50.584471: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:55] Reading meta graph with tags { serve }
+2021-03-13 14:11:50.584551: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:93] Reading SavedModel debug info (if present) from: /root/AI/BestModel/model.savedmodel/1
+2021-03-13 14:11:50.851113: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:206] Restoring SavedModel bundle.
+2021-03-13 14:11:50.898989: I external/org_tensorflow/tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2799945000 Hz
+2021-03-13 14:11:51.309070: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:190] Running initialization op on SavedModel bundle at path: /root/AI/BestModel/model.savedmodel/1
+2021-03-13 14:11:51.453373: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:277] SavedModel load for tags { serve }; Status: success: OK. Took 951358 microseconds.
+2021-03-13 14:11:51.486976: I tensorflow_serving/servables/tensorflow/saved_model_warmup_util.cc:59] No warmup data file found at /root/AI/BestModel/model.savedmodel/1/assets.extra/tf_serving_warmup_requests
+2021-03-13 14:11:51.489726: I tensorflow_serving/core/loader_harness.cc:87] Successfully loaded servable version {name: saved_model version: 1}
+2021-03-13 14:11:51.503478: I tensorflow_serving/model_servers/server.cc:371] Running gRPC ModelServer at 0.0.0.0:8500 ...
+[warn] getaddrinfo: address family for nodename not supported
+2021-03-13 14:11:51.511067: I tensorflow_serving/model_servers/server.cc:391] Exporting HTTP/REST API at:localhost:9500 ...
+[evhttp_server.cc : 238] NET_LOG: Entering the event loop ...
